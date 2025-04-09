@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+  .products {
+    row-gap: 10px;
+  }
+  .product-item {
+    width: calc(50% - 5px);
+  }
+}
+
+@media (max-width: 500px) {
+  .product-item {
+    width: 100%;
+  }
+}
